@@ -13,6 +13,8 @@
 		C0E30203244E998100D3264E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E30201244E998100D3264E /* Main.storyboard */; };
 		C0E30205244E998500D3264E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E30204244E998500D3264E /* Assets.xcassets */; };
 		C0E30208244E998500D3264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E30206244E998500D3264E /* LaunchScreen.storyboard */; };
+		C0E30210244E9A3D00D3264E /* cafes_sf.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E3020F244E9A3D00D3264E /* cafes_sf.json */; };
+		C0E30212244E9AF000D3264E /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E30211244E9AF000D3264E /* Cafe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C0E30204244E998500D3264E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E30207244E998500D3264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E30209244E998500D3264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E3020F244E9A3D00D3264E /* cafes_sf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cafes_sf.json; path = ../../../../Downloads/cafes_sf.json; sourceTree = "<group>"; };
+		C0E30211244E9AF000D3264E /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				C0E301FB244E998000D3264E /* AppDelegate.swift */,
 				C0E301FD244E998000D3264E /* SceneDelegate.swift */,
+				C0E3020F244E9A3D00D3264E /* cafes_sf.json */,
+				C0E30211244E9AF000D3264E /* Cafe.swift */,
 				C0E301FF244E998000D3264E /* ViewController.swift */,
 				C0E30201244E998100D3264E /* Main.storyboard */,
 				C0E30204244E998500D3264E /* Assets.xcassets */,
@@ -128,6 +134,7 @@
 				C0E30208244E998500D3264E /* LaunchScreen.storyboard in Resources */,
 				C0E30205244E998500D3264E /* Assets.xcassets in Resources */,
 				C0E30203244E998100D3264E /* Main.storyboard in Resources */,
+				C0E30210244E9A3D00D3264E /* cafes_sf.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E30212244E9AF000D3264E /* Cafe.swift in Sources */,
 				C0E30200244E998000D3264E /* ViewController.swift in Sources */,
 				C0E301FC244E998000D3264E /* AppDelegate.swift in Sources */,
 				C0E301FE244E998000D3264E /* SceneDelegate.swift in Sources */,
